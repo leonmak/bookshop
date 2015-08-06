@@ -40,7 +40,9 @@ gem 'devise'
 gem 'cancan'
 gem 'paperclip'
 gem 'dotenv-rails', groups: [:development]
-gem 'aws-sdk' , '<2.0'
+gem 'aws-sdk','<2.0'
+gem 'friendly_id'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
